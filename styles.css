@@ -1,0 +1,28 @@
+.original-image {
+    position: relative;
+}
+.original-image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+.zoomed-image {
+    width: 500px;
+    height: 500px;
+    margin-left: 2rem;
+    background-size: 2000px;
+    background-position: 0 0;
+}
+.zoomer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+    width: 125px;
+    height: 125px;
+    border: 1px solid white;
+}
+.wrapper {
+    display: flex;
+}
